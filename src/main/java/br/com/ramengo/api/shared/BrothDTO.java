@@ -1,17 +1,18 @@
 package br.com.ramengo.api.shared;
 
-public class BrothsDTO {
+public class BrothDTO {
 
-    private Long id;
+    private Integer id;
     private String imageInactive;
     private String imageActive;
     private String name;
     private String description;
     private Double price;
-    public Long getId() {
+
+    public Integer getId() {
         return id;
     }
-    public void setId(Long id) {
+    public void setId(Integer id) {
         this.id = id;
     }
     public String getImageInactive() {
