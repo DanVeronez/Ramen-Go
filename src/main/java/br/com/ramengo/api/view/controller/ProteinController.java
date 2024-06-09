@@ -18,7 +18,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class ProteinController {
     
     @Autowired
-    ProteinService proteinService;
+    private ProteinService proteinService;
 
     @GetMapping()
     public ResponseEntity<List<ProteinDTO>> getAll() {
