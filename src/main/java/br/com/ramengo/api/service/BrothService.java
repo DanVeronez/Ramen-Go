@@ -8,7 +8,6 @@ import org.springframework.stereotype.Service;
 
 import br.com.ramengo.api.repository.BrothRepository;
 import br.com.ramengo.api.shared.BrothDTO;
-import br.com.ramengo.api.shared.ProteinDTO;
 import lombok.extern.slf4j.Slf4j;
 
 @Slf4j
